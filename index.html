@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" media="screen" href="style.css" type="text/css">  <!-- - - - CSS - - - -->
+<script src="jquery.js"></script> <!-- - - - Lib jQuery - - - -->
+<script src='script.js' defer></script> <!-- - - - Javascript - - - -->
+
+<!--
+    Le problème vient de l'ordre de chargement du code JavaScript (script.js)
+    Une solution pour résoudre le problème consiste à rajouter l'attribut "defer" qui permet de charger le fichier à la fin du chargement de la page 
+-->
+
+
+<!-- - - - - - Titre - - - - - -->
+
+<title> Jeu de balles | Groupe C </title>
+
+<!-- - - - - - - - - - - - - - - - - - - - - -->
+
+
+</head>
+
+
+
+<body>
+
+
+<!-- - - - - - Header - - - - - -->
+
+<header id="header">
+    <img src="Image/Header.jpg">
+</header>
+
+<!-- - - - - - - - - - - - - - - - - - - - - -->
+
+
+
+<!-- - - - - - Ecran d'accueil - - - - - -->
+
+<div id="accueil">
+    <div id="image">
+        <img src="Image/ImgAccueil.jpg" height="'400" width="400">
+    </div>
+    <!-- <div id="texte"></div> -->
+    <div id="boutonJeu">
+        <p1> <button id='boutonJ' type="button" onclick="afficheJeu()"> Jouer </button> </p1>
+    </div>
+    
+</div>
+
+<!-- - - - - - - - - - - - - - - - - - - - - -->
+
+
+
+<!-- - - - - - Ecran de jeu - - - - - -->
+
+<div id="jeu">
+    
+    <div id="consigne">
+        <p2> Consigne : Cliquer sur la balle Rouge</p2>
+    </div>
+    
+    <center><div id="animation">
+        <canvas  id="dessin"></canvas>
+    </div>
+    </center>
+    
+    <div id="boutonQuitter">
+        <p3> <button id='boutonQ' type="button" onclick="afficheBilan()"> Quitter </button> </p3>
+    </div>
+</div>
+
+<!-- - - - - - - - - - - - - - - - - - - - - -->
+
+
+
+<!-- - - - - - Ecran de bilan - - - - - -->
+
+<div id="bilan">   
+    <div id="recap">
+        <p4>
+            Point : <br>
+            Nb_niveau :<br>
+            Point total :<br>
+        </p4>
+    </div>
+    <div id="boutonRejouer">
+        <p5> <button id='boutonR' type="button" onclick="afficheJeu()"> Rejouer </button> </p5>
+    </div>
+    <div id="boutonAccueil">
+        <p6> <button id='boutonA' type="button" onclick="afficheAccueil()"> Accueil </button> </p6>  
+    </div>
+</div>
+
+<!-- - - - - - - - - - - - - - - - - - - - - -->
+
+
+
+<!-- - - - - - Footer - - - - - -->
+
+<footer id="footer">
+    <img src="Image/Footer2.png">
+</footer>
+
+<!-- - - - - - - - - - - - - - - - - - - - - -->
+
+
+</body>
+</html>

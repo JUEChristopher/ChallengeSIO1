@@ -1,0 +1,165 @@
+/* - - - - - - - - - - Commun - - - - - - - - - - */
+
+
+/* Couleur d'arrière plan */
+
+html {
+    background-color: #f7f7FF;
+}
+
+
+/* Supression de la marge automatique du body */
+
+body {
+    margin: 0px;
+    font-family: 'a_atomic_mdregular';
+}
+
+
+/* Mise en forme du header */
+
+#header {
+    text-align: center;
+    position: solid;
+    top: 0;
+    width: 100%;
+    height: 125px;
+}
+
+
+/* Mise en forme du footer */
+
+#footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+}
+
+
+/* Police d'écriture */
+
+@font-face {
+    font-family: 'a_atomic_mdregular';
+    src: url('Font/aatomicmd-webfont.woff2') format('woff2'), url('Font/aatomicmd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - Ecran #accueil - - - - - - - - - - */
+
+
+/* Mise en forme de div accueil */
+
+#accueil {
+    padding-top: 50px;
+    height: 488px;
+    width: 1525px;
+}
+
+
+/* Mise en forme de l'image d'accueil */
+
+#image {
+    text-align: center;
+}
+
+
+/* Mise en forme du bouton "Jouer" */
+
+#boutonJeu {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - Ecran #jeu - - - - - - - - - - */
+
+
+/* Mise en forme de la div jeu */
+
+#jeu {
+    width: 1525px;
+    height: 488px;
+}
+
+
+/* Mise en forme de la consigne */
+
+#consigne {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 25px;
+    color: #495867;
+}
+
+#animation {
+    padding-top: 25px;
+}
+
+
+/* Mise en forme du canvas */
+
+canvas {
+    background-color: #577399;
+    border: 5px solid #495867;
+    border-radius: 5px;
+}
+
+
+/* Mise en forme du bouton "Quitter"  */
+
+#boutonQuitter {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - Ecran #bilan - - - - - - - - - - */
+
+
+/* Mise en forme du recapitulatif */
+
+#recap {
+    margin: auto;
+    margin-top: 125px;
+    border: 5px solid #577399;
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Mise en forme du bouton "Rejouer" */
+
+#boutonRejouer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* Mise en forme du bouton "Rejouer" */
+
+#boutonAccueil {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - */
